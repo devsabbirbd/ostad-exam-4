@@ -15,9 +15,6 @@
     
 
     <table class="table">
-        <thead>
-           
-        </thead>
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
