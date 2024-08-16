@@ -12,10 +12,8 @@
         </form>
         <a href="http://127.0.0.1:8000/contacts/create" class="btn btn-primary me-3">Create Contact</a>
     </div>
-    
 
-    <table class="table">
-        <table class="table table-striped table-bordered">
+            <table class="table table-striped table-bordered">
             <thead>
                 <tr>
                     <th><a href="{{ route('contacts.index', ['sort_by' => 'name', 'order' => request()->get('order') === 'asc' ? 'desc' : 'asc']) }}">Name</a></th>
@@ -47,9 +45,5 @@
                 @endforeach
             </tbody>
         </table>
-        
-    </table>
-
-    {{-- {{ $contacts->links() }} --}}
 </div>
 @endsection
